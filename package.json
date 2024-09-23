@@ -1,6 +1,6 @@
 {
   "name": "datepicker",
-  "version": "6.6.6",
+  "version": "6.7.0",
   "description": "The ultimate tool to create a date, range and time picker in your React applications.",
   "scripts": {
     "clean": "rimraf node_modules",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rehookify/datepicker.git"
+    "url": "git+https://github.com/pramahaditamaputra/datepicker-pram.git"
   },
   "keywords": [
     "react",
@@ -33,12 +33,12 @@
     "time-picker-hook",
     "react-time-picker-hook"
   ],
-  "author": "<pavel.feschenko@gmail.com>",
+  "author": "<codewithpram@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rehookify/datepicker/issues"
+    "url": "https://github.com/pramahaditamaputra/datepicker-pram/issues"
   },
-  "homepage": "https://github.com/rehookify/datepicker#readme",
+  "homepage": "https://github.com/pramahaditamaputra/datepicker-pram/issues",
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@testing-library/react": "^16.0.0",

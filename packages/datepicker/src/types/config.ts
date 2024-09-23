@@ -47,9 +47,9 @@ export interface DPLocaleConfig {
 }
 
 export interface DPTimeConfig {
-  hour: number;
-  minute: number;
-  second: number;
+  hour?: number;
+  minute?: number;
+  second?: number;
   interval: number;
   useLocales: boolean;
   minTime?: DPTimeLimit;
