@@ -21,7 +21,13 @@ export var createTime = (
   const minDate = getTimeDate(Y, M, D, minTime);
   const maxDate = getTimeDate(Y, M, D, maxTime);
 
-  const $date = newDate(Y, M, D, hour, minute);
+  const $date = newDate(
+    Y,
+    M,
+    D,
+    hour === undefined ? 0 : hour,
+    minute === undefined ? 0 : minute,
+  );
   const disabled =
     !d || minDateAndBefore(minDate, $date) || maxDateAndAfter(maxDate, $date);
 
